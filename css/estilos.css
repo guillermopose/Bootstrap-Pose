@@ -1,0 +1,41 @@
+.miCeleste{
+    color: rgb(194, 222, 255);
+}
+.miCelesteFondo{
+    background-color: rgb(194, 222, 255);
+}
+.miCelesteFondoClaro{
+    background-color:rgba(194, 222, 255, 0.63);
+}
+nav div div div{
+    margin-left: 4%;
+}
+.miCentrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.miAnimacion{
+    display: flex;
+    animation-name: animacionUno;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+.miPadding{
+    padding: 2%;
+}
+.miPadding P{
+    padding: 10px;
+    background-color: rgb(194, 222, 255);
+}
+
+.miMargin{
+    margin: 20px;
+}
+.miBorder{
+    border: 5px solid rgb(194, 222, 255);
+}
+
+@keyframes animacionUno {
+    0%{transform:translateX(1000px);opacity:0}
+    100%{transform:translateX(0);opacity:1}}
